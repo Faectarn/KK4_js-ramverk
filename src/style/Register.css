@@ -1,0 +1,45 @@
+.register-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.h1-register {
+    font-size: 18px;
+}
+
+input {
+    width: 250px;
+    margin: 1px;
+    padding: 5px;
+}
+
+.input-div {
+    display: flex;
+}
+
+.name-input {
+    width: 117px;
+}
+
+.street-input {
+    width: 197px;
+}
+
+.number-input {
+    width: 37px;
+}
+
+.zipcode-input {
+    width: 92px;
+}
+
+.city-input {
+    width: 142px;
+}
+
+.register-button {
+    padding: 1px;
+    margin: 2px;
+}
