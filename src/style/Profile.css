@@ -1,43 +1,62 @@
 .main-profile {
-    margin: 4rem auto;
-    text-align: center;
+  margin: 4rem auto;
+  text-align: center;
 }
 
 .h1-profile {
-    font-size: 27px;
+  font-size: 27px;
 }
 
 .h2-profile {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 .profile-section {
-    display: flex;
-    background: #f7dcc9;
-    width: 38rem;
-    margin: 1rem auto;
-    padding: 1rem;
-    border-radius: 5px;
-    box-shadow: 2px 2px 5px rgb(89, 89, 92);
-    text-align: start;
-    position: relative;
+  display: flex;
+  background: #f7dcc9;
+  width: 38rem;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgb(89, 89, 92);
+  text-align: start;
+  position: relative;
 }
 
 .profile-section img {
-    width: 12rem;
-    margin-right: 1rem;
+  width: 12rem;
+  margin-right: 1rem;
 }
 
 .profile-bottom-div {
-    
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20px;
 }
 
 .profile-logout {
-    position: absolute;
-    bottom: 5px;
-    right: 5px;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+
+@media (max-width: 700px) {
+  .profile-section {
+    width: 23rem;
+    margin: 10px;
+  }
+
+  .profile-section img {
+    width: 0rem;
+  }
+
+  .h1-profile {
+    font-size: 22px;
+    margin: 4px;
+  }
+
+  .h2-profile {
+    font-size: 14px;
+  }
 }

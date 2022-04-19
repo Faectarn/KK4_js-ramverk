@@ -1,20 +1,36 @@
 .main-home {
-    text-align: center;
+  text-align: center;
 }
 
 .h1-home {
-    font-size: 24px;
-  }
+  font-size: 24px;
+}
 
 .button-home {
-    border: none;
-    padding: 8px;
-    margin-top: 1rem;
-    border-radius: 5px;
-    font-weight: bold;
+  border: none;
+  padding: 8px;
+  margin-top: 1rem;
+  border-radius: 5px;
+  font-weight: bold;
 }
 
 .main-home img {
-    display: flex;
-    margin: 2rem auto;
+  display: flex;
+  margin: 2rem auto;
+}
+
+@media (max-width: 700px) {
+  .main-home img {
+    width: 22rem;
+  }
+
+  .h1-home {
+    font-size: 20px;
+    margin: 0 1rem;
+  }
+
+  .button-home {
+    padding: 6px;
+    font-weight: normal;
+  }
 }

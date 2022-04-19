@@ -1,45 +1,57 @@
 .register-form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .h1-register {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 input {
-    width: 250px;
-    margin: 1px;
-    padding: 5px;
+  width: 250px;
+  margin: 1px;
+  padding: 5px;
 }
 
 .input-div {
-    display: flex;
+  display: flex;
 }
 
 .name-input {
-    width: 117px;
+  width: 117px;
 }
 
 .street-input {
-    width: 197px;
+  width: 197px;
 }
 
 .number-input {
-    width: 37px;
+  width: 37px;
 }
 
 .zipcode-input {
-    width: 92px;
+  width: 92px;
 }
 
 .city-input {
-    width: 142px;
+  width: 142px;
 }
 
 .register-button {
-    padding: 1px;
-    margin: 2px;
+  padding: 1px;
+  margin: 2px;
+}
+
+@media (max-width: 700px) {
+  .h1-register {
+    font-size: 15px;
+  }
+
+  .main-login {
+    background: #f8c97a;
+    border-radius: 10px;
+    padding: 1rem;
+  }
 }

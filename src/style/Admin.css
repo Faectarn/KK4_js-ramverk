@@ -1,66 +1,102 @@
 .main-admin {
-    margin: 2rem 2rem 3rem 6rem;
+  margin: 2rem 2rem 3rem 6rem;
 }
 
 .h1-admin {
-    font-size: 28px;
+  font-size: 28px;
 }
 
 .h2-admin {
-    font-size: 13px;
+  font-size: 13px;
 }
 
 .h3-admin {
-    font-size: 13px;
-    margin: 5px;
+  font-size: 13px;
+  margin: 5px;
 }
 
 .admin-logout-button {
-    position: absolute;
-    top: 30px;
-    right: 112px;
+  position: absolute;
+  top: 30px;
+  right: 112px;
 }
 
 .admin-products {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 18rem);
-    gap: 5px;
-    padding-bottom: 3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 18rem);
+  gap: 5px;
+  padding-bottom: 3rem;
 }
 
 .list-item-admin {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 3px;
-    border: solid black 1px;
-    border-radius: 10px;
-    background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3px;
+  border: solid black 1px;
+  border-radius: 10px;
+  background: white;
 }
 
 .image-container-admin {
-    display: flex;
-    align-items: center
+  display: flex;
+  align-items: center;
 }
 
 .image-container-admin img {
-    width: 50%;
-    height: 5rem;
-    object-fit: contain;
-    border-radius: 5px;
-    margin-right: 10px;
+  width: 50%;
+  height: 5rem;
+  object-fit: contain;
+  border-radius: 5px;
+  margin-right: 10px;
 }
 
 .admin-users {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 14rem);
-    gap: 1rem;
-    padding-bottom: 3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 14rem);
+  gap: 1rem;
+  padding-bottom: 3rem;
 }
 
 .user-list {
-    padding: 3px;
-    border-left: solid black 1px;
-    border-radius: 0 10px 10px 0;
-    background: #3535352b;
+  padding: 3px;
+  border-left: solid black 1px;
+  border-radius: 0 10px 10px 0;
+  background: #3535352b;
+}
+
+@media (max-width: 700px) {
+  .main-admin {
+    margin: 0rem 1rem;
+  }
+
+  .image-container-admin img {
+    margin: 2px;
+  }
+
+  .admin-products {
+    grid-template-columns: repeat(auto-fill, 12rem);
+  }
+
+  .h2-admin {
+    font-size: 10px;
+    margin: 2px;
+  }
+
+  .h1-admin {
+    font-size: 22px;
+  }
+
+  .admin-users {
+    grid-template-columns: repeat(auto-fill, 11rem);
+  }
+
+  .h3-admin {
+    font-size: 11px;
+  }
+
+  .admin-logout-button {
+    position: unset;
+    margin-bottom: 1rem;
+  }
 }
