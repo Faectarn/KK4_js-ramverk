@@ -75,11 +75,16 @@
 
   .h1-products {
     font-size: 22px;
+    margin-left: 8px;
+  }
+
+  .categories {
+    justify-content: space-evenly;
   }
 
   .category-button {
-    margin-right: 3px;
-    font-size: 14px;
+    margin: 0;
+    font-size: 13px;
   }
 
   .product-list {

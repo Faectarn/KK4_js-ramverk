@@ -45,6 +45,7 @@
   .profile-section {
     width: 23rem;
     margin: 10px;
+    padding: 0;
   }
 
   .profile-section img {

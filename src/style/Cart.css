@@ -67,12 +67,17 @@
   }
 
   .cart-list {
-    grid-template-columns: repeat(auto-fill, 12rem);
+    grid-template-columns: repeat(auto-fill, 48%);
     justify-content: center;
+    gap: 5px;
   }
 
   .cart-list img {
     height: 10rem;
+  }
+
+  .h2-cart {
+      margin: 5px 0;
   }
 
   .h3-cart {

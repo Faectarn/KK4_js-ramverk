@@ -67,7 +67,7 @@
 
 @media (max-width: 700px) {
   .main-admin {
-    margin: 0rem 1rem;
+    margin: 0rem 6px;
   }
 
   .image-container-admin img {
@@ -75,7 +75,8 @@
   }
 
   .admin-products {
-    grid-template-columns: repeat(auto-fill, 12rem);
+    grid-template-columns: repeat(auto-fill, 48%);
+    justify-content: center;
   }
 
   .h2-admin {
@@ -88,7 +89,8 @@
   }
 
   .admin-users {
-    grid-template-columns: repeat(auto-fill, 11rem);
+    grid-template-columns: repeat(auto-fill, 47%);
+    gap: 5px;
   }
 
   .h3-admin {
@@ -96,7 +98,7 @@
   }
 
   .admin-logout-button {
-    position: unset;
-    margin-bottom: 1rem;
+    z-index: 9999;
+    right: 30px;
   }
 }
